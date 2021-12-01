@@ -102,7 +102,7 @@ def two_cards_have_exactly_one_symbol_in_common(*args):
 
 def main():
     print("Welcome to the Dobble solver")
-    DOBBLE_s = 5                                # the number of symbols per card
+    DOBBLE_s = 4                                # the number of symbols per card
     DOBBLE_n = DOBBLE_s * (DOBBLE_s - 1) + 1    # the number of symbols in the universe; 
                                                 # 'coincidentally' equal to the number of cards
     problem = constraint.Problem()
